@@ -1,0 +1,12 @@
+.body-contact-list{
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.body-contact-item{
+    width: 50%;
+}
+.contact-input-all{
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,73 @@
+ul, body{
+    padding: 0;
+    margin: 0;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+/* HEADER ***********/
+#header-website-top{
+    width: 1200px;
+    margin: 0 auto;
+}
+.header-website{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.header-logo{
+    width: 70px;
+    height: 70px;
+}
+.menu-website-list{
+    display: flex;
+}
+.menu-website-list li{
+    width: calc(100% / 7);
+    display: flex;
+    justify-content: center;
+}
+.menu-website-item{
+    width: 100%;
+    padding: 15px 0;
+    font-size: 14px;
+    color: black;
+    font-family: sans-serif;
+    text-align: center;
+    transition: color 0.3s linear;
+}
+.menu-website-item:hover{
+    color: #6e76fc;
+}
+.header-logo-website, .header-account-website{
+    width: 12%;
+}
+.header-menu-website{
+    width: calc(100% - 24%);
+}
+.ti-user, .ti-shopping-cart{
+    font-size: 20px;
+    color: black;
+}
+.account-header-list{
+    display: flex;
+    padding: 15px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+.account-website{
+    display: flex;
+}
+.login-account-website{
+    font-size: 16px;
+    font-family: sans-serif;
+    margin-left: 10px;
+    color: #6e76fc;
+}
+.login-account-website:hover{
+    opacity: 0.7;
+}

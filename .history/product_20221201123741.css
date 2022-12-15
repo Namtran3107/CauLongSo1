@@ -1,0 +1,31 @@
+.header-menu-website-bottom-background{
+    background-color: #f5f5f5;
+    width: 100%;
+    height: 50px;
+}
+input{
+    margin: 0;
+}
+/* Body****************** */
+.body-price-product{
+    width: 100%;
+}
+.body-price-product-son{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 20px;
+}
+.filter-product-all{
+    width: 25%;
+    box-shadow: 0px 0px 1px black   ;
+}
+.seller-product-all{
+    width: 75%;
+}
+.seller-product-list{
+    margin-left: 20px;
+}
+.filter-product-list{
+    padding: 10px 15px;
+}

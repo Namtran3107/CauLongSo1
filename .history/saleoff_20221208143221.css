@@ -1,0 +1,17 @@
+.filter-product-all{
+    height: auto;
+}
+.seller-product-display-item{
+    height: 320px;
+}
+.seller-product-display-box-prices-all{
+    display: flex;
+    align-items: flex-end;
+}
+.seller-product-display-box-sale{
+    color: red;
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-top: 7px;
+    font-weight: 600;
+}

@@ -1,0 +1,14 @@
+#body-cart-list{
+    width: 1200px;
+    margin: 20px auto 0;
+}
+.content-header-cart-list{
+    background-color: #f7f8f9;
+    padding: 15px 20px;
+}
+.content-header-cart-item{
+    font-size: 15px;
+    font-weight: 600;
+    font-family: sans-serif;
+    opacity: 0.9;
+}

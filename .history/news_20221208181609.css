@@ -1,0 +1,27 @@
+.body-news-paper-all{
+    width: 1200px;
+    margin: 0 auto;
+}
+.body-news-paper-son{
+    display: flex;
+}
+.news-paper-impotant{
+    width: 70%;
+}
+.list-news-paper-impotant{
+    width: 30%;
+}
+.news-paper-list{
+    width: calc(calc(100% / 3) + 20px);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 330px;
+}
+.news-paper-img{
+    height: 100%;
+}
+.news-paper-recommend{
+    box-shadow: 0px 1px 5px rgb(25, 25, 255, 0.4);
+}

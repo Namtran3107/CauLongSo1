@@ -1,0 +1,10 @@
+.body-website-login-list{
+    width: 1200px;
+    margin: 0 auto;
+}
+.body-website-login-item{
+    width: 400px;
+    height: 340px;
+    margin: 20px auto 0;
+    background-color: #fff;
+}

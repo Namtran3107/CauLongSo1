@@ -1,0 +1,44 @@
+.filter-product-all{
+    height: auto;
+}
+.seller-product-display-item{
+    height: auto;
+}
+.seller-product-display-box-prices-all{
+    display: flex;
+    align-items: flex-end;
+}
+.seller-product-display-box-sale{
+    color: red;
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-top: 7px;
+    font-weight: 600;
+}
+.seller-product-display-box-prices{
+    color: black;
+    text-decoration: line-through;
+    opacity: 0.4;
+    font-size: 13px;
+    font-family: sans-serif;
+    margin-left: 10px;
+}
+.seller-product-display-box-location{
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 600;
+    opacity: 0.8;
+    margin-top: 10px;
+}
+.seller-product-display-item::before{
+    content: "Giảm 70%";
+    position: absolute;
+    padding: 5px 10px;
+    background-color: #e01020;
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: sans-serif;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}

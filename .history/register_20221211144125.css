@@ -1,0 +1,17 @@
+
+:root {
+    --color-website: #e95211;
+}
+.body-website-login-item{
+    height: 520px;
+}
+.login-input-text-list{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.login-input-text-item{
+    float: none;
+    color: var(--color-website);
+    margin-left: px;
+}
